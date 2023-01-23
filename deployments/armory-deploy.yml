@@ -15,7 +15,7 @@ targets:
             environment: staging
 
 manifests:
-  - path: manifests/anythink.yml
+  - path: /deployments/manifests/anythink.yml
 
 trafficManagement:
   - targets: [staging]
