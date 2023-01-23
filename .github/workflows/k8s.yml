@@ -187,7 +187,7 @@ jobs:
         with:
           clientId: ${{ secrets.ARMORY_CLIENT_ID }}
           clientSecret:  ${{ secrets.ARMORY_CLIENT_SECRET }}
-          path-to-file: /deployments/armory-deploy.yml
+          path-to-file: /armory-deploy.yml
           waitForDeployment: true
       - name: Print deploy output
         id: output
