@@ -1,3 +1,9 @@
+name: Build and deploy to Kubernetes
+on:
+  push:
+    branches:
+      - "*"
+
 version: v1
 kind: kubernetes
 application: Anythink
